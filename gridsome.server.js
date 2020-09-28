@@ -1,4 +1,4 @@
-export default function(api, options) {
+module.exports = (api, options) => {
     api.setClientOptions(options)
-
 }
+
