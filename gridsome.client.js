@@ -10,8 +10,6 @@ export default function(Vue, options, {isClient}) {
                gtag('config', '${options.id}');
                </script>`
     }
-    document.head.insertAdjacentHTML('afterend', scriptBody(options))
-    document.head.insertAdjacentHTML('afterend', `<script async src="https://www.googletagmanager.com/gtag/js?id=${options.id}"></script>`)
-
-
+    document.head.insertAdjacentHTML('afterbegin', scriptBody(options))
+    document.head.insertAdjacentHTML('afterbegin', `<script async src="https://www.googletagmanager.com/gtag/js?id=${options.id}"></script>`)
 }
