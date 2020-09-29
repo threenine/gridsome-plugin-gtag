@@ -1,10 +1,9 @@
-import VueGtagPlugin from "vue-gtag";
+import VueGtag from "vue-gtag";
 export default function(Vue, options, {isClient, router}) {
     if (!isClient) return
 
-    Vue.use(VueGtagPlugin, {
-        "config": {"id": options.id},
-        "enabled": true
+    Vue.use(VueGtag, {
+        "config": {"id": options.id}
     }, router)
 
 }
