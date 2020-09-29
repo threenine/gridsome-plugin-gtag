@@ -1,6 +1,6 @@
 {
   "name": "gridsome-plugin-gtag",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A Gridsome plugin to enable the easy addition of Google Gtag analytics script to your Gridsome based website",
   "main": "gridsome.client.js",
   "scripts": {
@@ -31,5 +31,8 @@
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
     "prettier": "^2.1.1"
+  },
+  "dependencies": {
+    "vue-gtag": "^1.9.1"
   }
 }
