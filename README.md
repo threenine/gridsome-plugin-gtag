@@ -16,13 +16,15 @@ Then add the following to you `gridsom.config.js` plugins array
 
 
 ```shell script
- {
-            use: 'gridsome-plugin-gtag',
-            options: {
-                id: process.env.GOOGLE_ANALYTICS_ID,
-            },
+{
+    use: 'gridsome-plugin-gtag',
+    options: {
+        config: {
+            id: process.env.GOOGLE_ANALYTICS_ID,
         },
-``` 
+    },
+},
+```
 
 
 ### Developed, Sponsored and Supported 
