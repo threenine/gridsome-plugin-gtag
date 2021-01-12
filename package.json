@@ -1,6 +1,6 @@
 {
   "name": "gridsome-plugin-gtag",
-  "version": "0.1.8",
+  "version": "0.1.10",
   "description": "A Gridsome plugin to enable the easy addition of Google Gtag analytics script to your Gridsome based website",
   "main": "gridsome.client.js",
   "scripts": {
@@ -17,8 +17,12 @@
     "gridsome-plugin",
     "gridsome",
     "google analytics",
-    "gtag"
+    "gtag",
+    "analytics"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "threenine.co.uk <hello@threenine.co.uk> (https://threenine.co.uk)",
   "license": "MPL-2.0",
   "bugs": {
@@ -27,12 +31,12 @@
   "homepage": "https://github.com/threenine/gridsome-plugin-gtag#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.7.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "husky": "^4.2.5",
-    "prettier": "^2.1.1"
+    "eslint": "^7.17.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "husky": "^4.3.7",
+    "prettier": "^2.2.1"
   },
   "dependencies": {
-    "vue-gtag": "^1.9.1"
+    "vue-gtag": "^1.10.0"
   }
 }
