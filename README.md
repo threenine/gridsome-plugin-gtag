@@ -11,7 +11,7 @@ npm i gridsome-plugin-gtag
 Put your Google Analytics ID in you environment variables with a name 
 similar to `GOOGLE_ANALYTICS_ID`.
 
-Then add the following to you `gridsom.config.js` plugins array
+Then add the following to you `gridsome.config.js` plugins array
 
 
 
