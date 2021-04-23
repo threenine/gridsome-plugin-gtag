@@ -1,6 +1,6 @@
 import VueGtag from "vue-gtag";
-export default function(Vue, options, {isClient, router}) {
-    if (!isClient) return
+export default function(Vue, options, {isServer, router}) {
+    if (isServer) return
 
     Vue.use(VueGtag, {
         ...options
